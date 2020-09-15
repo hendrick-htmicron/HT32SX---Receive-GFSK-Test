@@ -13,3 +13,10 @@ Firmware developed to implement Receive GFSK Test (Downlink counter).
 | **node_switch_boost** | **Boost_flag:** 1 to turn on S2LP boost mode and 0 to turn off. | Turn on or turn off S2LP boost mode.<br/>Example (turning off):<br/>**node_switch_boost 0** |
 | **node_reduce_output_power** | **Ouput_power:** New output power value. | Set a new output power.<br/> Example:<br/>**node_reduce_output_power -20** |
 | **node_close** | None | Closes the library (Free the allocated memory of SIGFOX_API_open and close RF).<br/>Example:<br/>**node_close** |
+
+## How to Use
+
+• 1 - Configure device to the current RC:
+<div align="center">
+  <img src="https://github.com/hendrick-htmicron/HT32SX---Receive-GFSK-Test/blob/master/Screenshot/cfg-rcz.PNG">
+</div>
