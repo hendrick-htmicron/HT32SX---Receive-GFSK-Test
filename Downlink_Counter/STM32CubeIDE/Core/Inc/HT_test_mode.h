@@ -32,7 +32,7 @@
 
 /*!******************************************************************
  * \fn void HT_test_mode(void)
- * \brief Get command parameters and convert to int32.
+ * \brief Main routine for GFSK Receive Test.
  *
  * \param[in]  node
  * \param[out] none
