@@ -32,7 +32,7 @@
 
 /*!******************************************************************
  * \fn void HT_test_mode(void)
- * \brief Main routine for GFSK Receive Test.
+ * \brief GFSK test main routine.
  *
  * \param[in]  node
  * \param[out] none

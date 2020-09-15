@@ -51,7 +51,7 @@ void HT_API_downlinkCounter(char *tmp) {
 		rx_counter = HT_API_getDownlinkCounter();
 		err_counter = HT_API_getDownlinkFailed();
 		i = HT_API_getInd();
-		printf("Ind: %d\n", i);
+		printf("Iterations: %d\n", i);
 	}
 
 	printf("\nTest finished.\n");
