@@ -20,3 +20,46 @@ Firmware developed to implement Receive GFSK Test (Downlink counter).
 <div align="center">
   <img src="https://github.com/hendrick-htmicron/HT32SX---Receive-GFSK-Test/blob/master/Screenshot/cfg-rcz.PNG">
 </div>
+
+<br/>
+
+• 2 - Set up RSA to do **UL - RF Analysis Nominal Voltage**:
+
+<div align="center">
+  <img src="https://github.com/hendrick-htmicron/HT32SX---Receive-GFSK-Test/blob/master/Screenshot/cfg-rcz.PNG">
+</div>
+
+<br/>
+
+• 3 - Send a test frame using downlink frequency corresponding to the RC previously configured. It will set a Static Drift which will be necessary for the RX test:
+
+<div align="center">
+  <img src="https://github.com/hendrick-htmicron/HT32SX---Receive-GFSK-Test/blob/master/Screenshot/cfg-rcz.PNG">
+</div>
+
+<br/>
+
+• 4 - Reconfigure RSA to do **DL - GFSK Receiver**:
+
+<div align="center">
+  <img src="https://github.com/hendrick-htmicron/HT32SX---Receive-GFSK-Test/blob/master/Screenshot/cfg-rcz.PNG">
+</div>
+
+<br/>
+
+• 5 - Start the GFSK test using a downlink frequency corresponding to the RC previously configured:
+
+<div align="center">
+  <img src="https://github.com/hendrick-htmicron/HT32SX---Receive-GFSK-Test/blob/master/Screenshot/cfg-rcz.PNG">
+</div>
+
+<br/>
+
+• 6 - Finally, click "Start send GFSK" to start running the test:
+
+<div align="center">
+  <img src="https://github.com/hendrick-htmicron/HT32SX---Receive-GFSK-Test/blob/master/Screenshot/cfg-rcz.PNG">
+</div>
+
+<br/>
+
