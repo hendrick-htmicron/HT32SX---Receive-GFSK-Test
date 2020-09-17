@@ -70,6 +70,9 @@ void HT_SigfoxApi_sendTestFrame(char *tmp) {
 
 	HT_SigfoxApi_getParameters(tmp, cmd);
 
+	enc_utils_set_test_id(1);
+	enc_utils_set_test_key(1);
+
 	for(int i = 0;i < 3;i++) {
 		err = SIGFOX_API_send_test_frame((sfx_s32) cmd[0], customer_data, sizeof((uint8_t *)customer_data), SFX_FALSE);
 		HAL_Delay(1000);
